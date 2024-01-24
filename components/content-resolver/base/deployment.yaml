@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: content-resolver
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/asamalik-tenant/content-resolver/content-resolver@sha256:0c98dc6931495c2d68042b06de8a0d183da35a086230dc6f159fb7c08e3f29ff
         imagePullPolicy: Always
         name: container-image
         resources:
